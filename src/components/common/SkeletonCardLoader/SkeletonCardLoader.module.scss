@@ -1,0 +1,36 @@
+.skeletonContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 2rem;
+}
+
+.skeletonCard {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #F5F5F5;
+}
+
+.skeletonImage {
+  width: 90%;
+  height: 96px;
+  background-color: #E0E0E0;
+}
+
+.skeletonTitle {
+  width: 95%;
+  height: 20px;
+  margin-top: 1rem;
+  background-color: #E0E0E0;
+}
+
+.skeletonSubtitle {
+  width: 80%;
+  height: 16px;
+  margin-top: 0.5rem;
+  background-color: #E0E0E0;
+}
